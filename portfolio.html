@@ -1,70 +1,118 @@
 <!DOCTYPE html>
 <html lang="en-US">
 
-	<head>
-		
-		<meta charset="UTF-8">
-		<title>Chris O'Mara</title>
-		<link rel="stylesheet" type="text/css" href="assets\css\style.css">
-		
-	</head>
+<head>
 
-	<body>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<title>Chris O'Mara</title>
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://bootswatch.com/yeti/bootstrap.min.css">
 
-		<header id="header">
+	<link href="assets/css/style.css" rel="stylesheet">
+	<!-- Googlefonts -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Raleway" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="assets/font-awesome/css/font-awesome.min.css">
 
-			<a id="name" href="index.html">Chris O'Mara</a>
+</head>
 
-			<div id="nav_bar">
-				<a href="index.html">About</a>
-				<a id="portfolio_button" href="portfolio.html">Portfolio</a>
-				<a href="contact.html">Contact</a>
-			</div>
+  <body>
 
-		</header>
-		
-		<div id="main">
+      <nav class="navbar navbar-default">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            </button>
+            <a class="navbar-brand" href="index.html">Chris O'Mara</a>
+          </div>
 
-				<h2>Portfolio</h2>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="index.html">About</a></li>
+              <li><a href="portfolio.html">Portfolio</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              </ul>
+          </div>
+        </div>
+      </nav>
 
-				<img id="img_1" src="assets/images/portfolio_1.jpg" alt="Hangman">
-				<img id="img_2" src="assets/images/portfolio_2.jpg" alt="RPG Game">
-				<img id="img_3" src="assets/images/portfolio_3.jpg" alt="Trivia Game">
-				<img id="img_4" src="assets/images/portfolio_4.jpg" alt="Rutgers Info Widget">
-				<img id="img_5" src="assets/images/portfolio_5.jpg" alt="Rock Paper Scissors">
+      <div class="container">
 
-				<ul>
-					
-					<li id="hangman">Hangman</li>
-					<li id="rpg_game">RPG Game</li>
-					<li id="trivia">Trivia</li>
-					<li id="rutgers">Rutgers Info Widget</li>
-					<li id="rockpaperscissors">Rock Paper Scissors</li>
+        <!-- Portfolio Item Heading -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">My Portfolio
+                    <small>Take a look at some of my work</small>
+                </h1>
+            </div>
+        </div>
+        
 
-				</ul>
-		
-		</div>
+        <!-- Portfolio Item Row -->
+        <div class="row">
 
+            <div class="col-md-8">
+                <img class="img-responsive img-thumbnail" src="assets/images/basic_portfolio.jpg" alt="">
+            </div>
 
+            <div class="col-md-4">
+                <h3>Raw CSS Portfolio</h3>
+                <p>A simple static page made with only HTML and CSS. No bootstrap involved! This was my first major project.</p>
+                <h3>Project Details</h3>
+                <ul id="portolfio-list">
+                    <li>Includes multiple HTML pages</li>
+                    <li>Proper usage of media queries</li>
+                    <li>Pushed to github and heroku</li>
+                    <li>Looks nice!</li>
+                </ul>
+            </div>
 
+        </div>
+       
 
+        <!-- Related Projects Row -->
+        <div class="row">
 
+            <div class="col-lg-12">
+                <h3 class="page-header">Related Projects</h3>
+            </div>
 
-		<aside>
-			
-			<h3>Connect with Me</h3>
-			<a href="https://github.com/Comara17"><img id="github" src="assets/images/github_icon.png" alt="GitHub"></a>
-			<a href="https://www.linkedin.com/in/christopher-o-mara-4a5a54138/"><img id="linkedin" src="assets/images/linkedin_icon.png" alt="LinkedIn"></a>
-			<a href="http://stackoverflow.com/users/7789571/chris-omara"><img id="stackoverflow" src="assets/images/stackoverflow.png" alt="StackOverflow"></a>
+            <div class="col-sm-3 col-xs-6">
+                <a href="#">
+                    <img class="img-responsive portfolio-item" src="http://lorempixel.com/500/300/" alt="">
+                </a>
+            </div>
 
-		</aside>
+            <div class="col-sm-3 col-xs-6">
+                <a href="#">
+                    <img class="img-responsive portfolio-item" src="http://lorempixel.com/500/300/" alt="">
+                </a>
+            </div>
 
-		<footer>
-			
-			<h4>&#9400; Copyright 2017 Chris O'Mara</h4>
+            <div class="col-sm-3 col-xs-6">
+                <a href="#">
+                    <img class="img-responsive portfolio-item" src="http://lorempixel.com/500/300/" alt="">
+                </a>
+            </div>
 
-		</footer>
+            <div class="col-sm-3 col-xs-6">
+                <a href="#">
+                    <img class="img-responsive portfolio-item" src="http://lorempixel.com/500/300/" alt="">
+                </a>
+            </div>
 
-	</body>
+        </div>
+      </div>
+        
+        <footer class="footer">
+          <div class="container">
+            <p class="text-muted"><br>Copyright&#9400; 2017 Chris O'Mara</p>
+          </div>
+          </footer>
+
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  
+</body>
 
 </html>
