@@ -22,7 +22,7 @@
 
 .navbar-default .navbar-brand {
     font-size: 28px;
-    color: #9999ff;
+    color: #00cc99;
 }
 
 
@@ -41,7 +41,7 @@ section {
 
 .section-lead {
     margin: 30px 0;
-    color: #9999ff;
+    color: #00cc99;
 }
 
 .section-paragraph {
@@ -54,11 +54,11 @@ section {
 }
 
 .page-header {
-    color: #9999ff;
+    color: #00cc99;
 }
 
 .col-md-4 ul li span {
-    color: #9999ff;
+    color: #00cc99;
 }
 
 .text-muted {
@@ -66,18 +66,18 @@ section {
 }
 
 .header {
-    color: #9999ff;
+    color: #00cc99;
     font-size: 27px;
     padding: 10px;
 }
 
 .bigicon {
     font-size: 35px;
-    color: #9999ff;
+    color: #00cc99;
 }
 
 .btn {
-    background-color: #9999ff;
+    background-color: #00cc99;
 }
 
 /*footer*/
